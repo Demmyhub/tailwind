@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Itim&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply bg-white rounded overflow-hidden shadow-md relative
+}
+
+.badge{
+    @apply bg-secondary-100 text-secondary-200 text-sm uppercase font-bold rounded-full absolute top-0 ml-2 mt-2 p-1
+}
+.btn{
+    @apply rounded-full py-2 px-3 uppercase text-xs cursor-pointer font-bold tracking-wider
+}
